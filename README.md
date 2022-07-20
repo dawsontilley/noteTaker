@@ -1,3 +1,1 @@
-## Note Taker
-
-### Dawson Tilley
+# Note Taker Starter Code
