@@ -1,16 +1,11 @@
-{
-  "prev_data": [
+
+  [
     {
       "title": "Test Title",
       "text": "Test text"
     },
     {
-      "title": "Third Note",
-      "text": "third times the charm"
-    },
-    {
-      "title": "Third Note",
-      "text": "third times the charm"
+      "title": "second note",
+      "text": "more text"
     }
   ]
-}
