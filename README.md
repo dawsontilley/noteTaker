@@ -1,6 +1,8 @@
 # Note Taker Starter Code
 
-## Using JS Express
+## Made with JS Express
+A note taker that uses express to save your notes!
+
 
 ## Deployed Site
 [Github Pages][https://dawsontilley.github.io/noteTaker/]
