@@ -1,12 +1,12 @@
 const router = require('express').Router();
 const { createNote, validateNote } = require('../../lib/note');
-const { db } = require('../../db/db');
+const { db } = require('../../db/db.json');
 
 router.get('/db', (req, res) => {
   let results = db;
-  if (req.query) {
+  /*if (req.query) {
     results = filterByQuery(req.query, results);
-  }
+  }*/
   res.json(results);
 });
 
