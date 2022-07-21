@@ -1,5 +1,5 @@
 const express = require('express');
-
+// sets up port
 const PORT = process.env.PORT || 3001;
 const app = express();
 const apiRoutes = require('./routes/apiRoutes');
@@ -9,7 +9,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static('public'));
 
-// Use apiRoutes
+// Goes to router for API Route
 app.use('/api', apiRoutes);
 app.use('/', htmlRoutes);
 
