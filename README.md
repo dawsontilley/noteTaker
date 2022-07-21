@@ -7,6 +7,6 @@
 ### Actual Deployed Site
 [https://note-taker-supreme-app.herokuapp.com/](https://note-taker-supreme-app.herokuapp.com/)
 
-[deployed site img](./assets/screenshot.PNG)
+![deployed site img](./assets/screenshot.PNG)
 
 ## By Dawson Tilley
