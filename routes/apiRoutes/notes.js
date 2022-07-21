@@ -14,6 +14,7 @@ router.post('/notes', (req, res) => {
   // set id based on what the next index of the array will be
   
  //let wrapper= [req.body];
+  req.body.id=db.length.toString();
 
   if (!validateNote(req.body)) {
     res.status(400).send('The db is not properly formatted.');

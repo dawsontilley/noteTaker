@@ -1,11 +1,9 @@
-
-  [
+[
+  
     {
       "title": "Test Title",
-      "text": "Test text"
-    },
-    {
-      "title": "second note",
-      "text": "more text"
+      "text": "Test text",
+      "id":"1"
     }
+   
   ]
