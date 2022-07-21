@@ -1,8 +1,8 @@
 const router = require('express').Router();
 const { createNote, validateNote } = require('../../lib/note');
-const { db } = require('../../db/db.json');
+const  db = require('../../db/db.json');
 
-router.get('/db', (req, res) => {
+router.get('/notes', (req, res) => {
   let results = db;
   /*if (req.query) {
     results = filterByQuery(req.query, results);
@@ -10,9 +10,9 @@ router.get('/db', (req, res) => {
   res.json(results);
 });
 
-router.post('/db', (req, res) => {
+router.post('/notes', (req, res) => {
   // set id based on what the next index of the array will be
-  req.body.id = db.length.toString();
+ 
 
   if (!validateNote(req.body)) {
     res.status(400).send('The db is not properly formatted.');
